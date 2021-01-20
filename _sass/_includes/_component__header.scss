@@ -187,23 +187,20 @@
     line-height: $h4-lineheight;
     letter-spacing: $h4-spacing-small;
     text-transform: none;
-    color: $text-dark-color !important; 
+    color: $text-dark-color; 
 
-    &.active-link {
-      color: $accent-color !important;
-    }
     &.hover {
-      color: $accent-color !important;
+      color: $accent-color;
     }
   }
 
-  /*.menu__cta__link {
+  .menu__cta__link {
     color: $text-dark-color;
     
     &:hover {
       color: $accent-color;
     }
-  }*/
+  }
 
   @include mq(tabletp) {
     margin-top: 0;
@@ -221,14 +218,23 @@
       font-size: 14px;
       line-height: 18px;
       display: inline-block;
-      color: $text-dark-color;
       font-weight: $button-weight;
       letter-spacing: $button-spacing;
       text-transform: uppercase;
+      color: $text-dark-color;
+
+      &:hover {
+        color: $accent-color;
+      }
     }
 
     .menu__cta__link {
       display: none;
+      color: $text-dark-color;
+
+      &:hover {
+        color: $accent-color;
+      }
     }
   }
 }
