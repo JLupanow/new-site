@@ -1,6 +1,6 @@
-site: Made Jekyll Theme
+site: Jessica Lupanow
 
-url: 
+url: https://jessicalupanow.com/
 baseurl: 
 
 collections:
@@ -57,5 +57,5 @@ sass:
 plugins:
   - jekyll-sitemap
 
-paginate: 7
+paginate: 6
 paginate_path: "/blog/page-:num/"

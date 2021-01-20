@@ -22,6 +22,7 @@
 
 	    @include mq(tabletp) {
 	      font-size: $sitetitle-medium;
+	      margin-top: 40px;
 	    }
 
 	    @include mq(laptop) {
@@ -32,17 +33,32 @@
 	      color: $accent-color;
 	    }
 	}
+
+	.footer__socials {
+
+		@include mq(tabletp) {
+			justify-self: end;
+			align-self: right;
+			text-align: right;
+		}
+
+		p {
+			margin-bottom: 10px;
+		}
+	}
 	
 	.footer__copyright {
 
 		@include mq(tabletp) {
 			justify-self: center;
 			align-self: center;
-			text-align: right;
+			text-align: center;
+			margin-top: 30px
 		}
 
 		p {
 			margin-bottom: 10px;
+			margin-top: 40px;
 		}
 	}
 
@@ -57,8 +73,66 @@
 			justify-self: start;
 		}
 		
+		.footer__socials {
+			justify-self: end; 
+		}
+
 		.footer__copyright {
-			justify-self: end;
+			justify-self: center; 
 		}
 	}
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Social Icons
+
+.socials {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: right;
+  justify-content: right;
+}
+
+.socials__item {
+  margin-left: 24px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.socials__item__link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: $sitetitle-small;
+  height: $sitetitle-small;
+  border-radius: 100%;
+  background: $text-dark-color;
+  font-size: 0.65*$sitetitle-small;
+  color: $background-color;
+
+	@include mq(tabletp) {
+	    font-size: 0.65*$sitetitle-medium;
+	    width: $sitetitle-medium;
+	    height: $sitetitle-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: 0.65*$sitetitle-large;
+		width: $sitetitle-large;
+		height: $sitetitle-large;
+	}
+
+
+  &:hover {
+    background: $accent-color;
+    color: $background-color;
+  }
+
+  &:active {
+    transform: scale(0.92);
+  }
 }

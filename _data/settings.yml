@@ -1,6 +1,6 @@
 basic_settings:
-  site_title: Made
-  favicon_image: /images/favicon.png
+  site_title: Jessica Lupanow
+  favicon_image: /images/favicon.ico
 
 header_settings:
   logo_image: 
@@ -8,27 +8,29 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
+    - title: 'Portfolio'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'Resume'
+      url: '/'
+    - title: 'About'
+      url: '/'
 
 footer_settings:
   logo_image: 
   logo_width: 100
-  tagline: A beautiful, minimal portfolio Jekyll theme
+  tagline: Good UX doesn't happen by chance. It happens by design.
 
 hero_settings:
-  background_image: /images/backgrounds/background-hero.svg
+  background_image: 
 
 post_settings:
   grid_spacing: 10
 
 contact_settings:
   email_address: ''
-  form_action: 'https://formspree.io/hello@jekyllthemes.io'
+  form_action: 'https://formspree.io/f/xbjpwdnz'
   confirmation_url: '/thanks'
-  email_subject: 'Contact form submission'
+  email_subject: 'Portfolio Contact Form Submission'
   send_button_text: 'Get in Touch'
 
 social_settings:
@@ -57,7 +59,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/jessica-lupanow'
 
 color_settings:
   background_color: '#ffffff'
@@ -65,9 +67,9 @@ color_settings:
   text_dark_color: '#202224'
   text_medium_color: '#6C7A89'
   text_light_color: '#AEB3BB'
-  accent_color: '#4C60E6'
+  accent_color: '#2f3ced'
   border_color: '#ECEDEF'
-  error_color: '#D64541'
+  error_color: '#871613'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Ubuntu+Mono:400,700" rel="stylesheet">'
@@ -77,8 +79,8 @@ font_settings:
   bold_weight: 700
   site_title:
     small_size: 30
-    medium_size: 40
-    large_size: 45
+    medium_size: 35
+    large_size: 40
     weight: 700
     letter_spacing: -0.02
   menu:

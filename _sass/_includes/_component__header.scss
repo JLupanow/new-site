@@ -7,7 +7,13 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Header
 
 .header--main {
-  padding: 40px 0;
+  padding: 20px 0;
+
+  /*.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }*/
 
   .header__logo {
     display: block;
@@ -181,15 +187,23 @@
     line-height: $h4-lineheight;
     letter-spacing: $h4-spacing-small;
     text-transform: none;
+    color: $text-dark-color !important; 
 
     &.active-link {
-      color: $accent-color;
+      color: $accent-color !important;
+    }
+    &.hover {
+      color: $accent-color !important;
     }
   }
 
-  .menu__cta__link {
-    color: $accent-color;
-  }
+  /*.menu__cta__link {
+    color: $text-dark-color;
+    
+    &:hover {
+      color: $accent-color;
+    }
+  }*/
 
   @include mq(tabletp) {
     margin-top: 0;

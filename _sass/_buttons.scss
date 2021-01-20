@@ -18,6 +18,12 @@
     letter-spacing: $button-spacing;
     text-transform: uppercase;
     cursor: pointer;
+    
+    /*&:hover {
+      color: $accent-color;
+    }*/
+
+
 
     &.--right {
       --color-var: #{$text-dark-color};
@@ -84,7 +90,7 @@
 
     &:hover {
       color: white;
-      background-color: darken($color: $accent-color, $amount: 5);
+      background-color: darken($color: $accent-color, $amount: 5); /* edit contact button effects*/
     }
 
     &:active {
