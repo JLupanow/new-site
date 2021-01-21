@@ -7,6 +7,17 @@
 .page,
 .page__content {
 	width: 100%;
+  margin-top: $sitetitle-small+60px;
+
+
+  @include mq(tabletp) {
+    margin-top: $sitetitle-medium+60px;
+  }
+
+  @include mq(laptop) {
+    margin-top: $sitetitle-large+60px;
+  }
+
 }
 
 .wrap {

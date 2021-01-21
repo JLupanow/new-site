@@ -8,12 +8,19 @@
 
 .header--main {
   padding: 20px 0;
+  background-color: white;
+  /*border: 0 0 1px 0;
+  border-style: none none solid none;
+  border-color: rgba(0,0,0,0.01);*/
 
-  /*.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }*/
+  border-bottom: 1px solid rgba(0,0,0,.05);
+
+  /*Make navbar sticky*/
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+
+  z-index: 10000; /* Keep navbar on top of other content */
 
   .header__logo {
     display: block;
@@ -24,6 +31,7 @@
   }
 
   .header__title {
+    align-self: center;
     font-family: $title-font;
     font-size: $sitetitle-small;
     font-weight: $sitetitle-weight;
@@ -31,14 +39,15 @@
     line-height: 1;
     color: $text-dark-color;
     transition: color 0.25s ease-in-out;
+    white-space: nowrap;
 
-    @include mq(tabletp) {
+    /*@include mq(tabletp) {
       font-size: $sitetitle-medium;
     }
 
     @include mq(laptop) {
       font-size: $sitetitle-large;
-    }
+    }*/
 
     &:hover {
       color: $accent-color;
@@ -47,15 +56,7 @@
 
   .header__menu {
     display: flex;
-    
-
-    /*maybe centering HERE*/
     justify-content: center; 
-    
-
-    /*justify-self: end;
-    align-self: center;*/
-
     width: 100vw;
     height: 100vh;
     background-color: white;
@@ -76,7 +77,7 @@
   }
 
   @include mq(tabletp) {
-    padding: 64px 0;
+    padding: 10px 0;
 
     .wrap {
       grid-template-columns: 1fr 1fr; /*1fr;*/
