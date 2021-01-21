@@ -22,9 +22,13 @@
 					{% for item in site.data.settings.menu_settings.menu_items %}
 					<li class="menu__list__item">
 						{% if item.title == "Resume" %}
-						<a href="{{ item.url | relative_url }}" target = "_blank" class="menu__list__item__link button--text js-scroll-trigger">{{ item.title }}</a>
+							<a href="#" onclick='window.open("{{ item.url | relative_url }}");return false;' class="menu__list__item__link button--text">{{ item.title }}</a>
 						{% else %}
-						<a href="{{ item.url | relative_url }}" class="menu__list__item__link button--text js-scroll-trigger">{{ item.title }}</a>
+							<!-- Open in the same tab -->
+							<!-- <a href="#" onclick='window.open("{{ item.url | relative_url }}","_self");return false;' class="menu__list__item__link button--text js-scroll-trigger">{{ item.title }}</a> -->
+
+							<!-- Go to place on this page without reloading -->
+							<a href="{{ item.url | relative_url }}" class="menu__list__item__link button--text js-menu-toggle">{{ item.title }}</a>
 						{% endif %}
 					</li>
 					{% endfor %}
