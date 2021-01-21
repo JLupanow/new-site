@@ -7,6 +7,16 @@
 .about {
   /*margin-bottom: 100px;*/
 
+  /*Make about link jump to 100px above start of section so its not covered by navbar*/
+  a.navbar-link::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -100px; 
+    height: 100px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
   hr {
     margin-bottom: 80px;
   }

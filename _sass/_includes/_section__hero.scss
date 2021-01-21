@@ -9,6 +9,16 @@
 	position: relative;
 	padding: 40px 0 160px;
 
+	/*Make about link jump to 100px above start of section so its not covered by navbar*/
+	a.navbar-link::before { 
+		display: block; 
+		content: " "; 
+		margin-top: -1000px; 
+		height: 1000px; 
+		visibility: hidden; 
+		pointer-events: none;
+	}
+
 	.wrap {
 		grid-gap: 0;
 	}
