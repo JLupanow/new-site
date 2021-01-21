@@ -65,6 +65,30 @@
 
 	});
 
+	// Smooth scrolling using jQuery easing
+    // $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+    //     if (
+    //         location.pathname.replace(/^\//, "") ==
+    //             this.pathname.replace(/^\//, "") &&
+    //         location.hostname == this.hostname
+    //     ) {
+    //         var target = $(this.hash);
+    //         target = target.length
+    //             ? target
+    //             : $("[name=" + this.hash.slice(1) + "]");
+    //         if (target.length) {
+    //             $("html, body").animate(
+    //                 {
+    //                     scrollTop: target.offset().top - 72,
+    //                 },
+    //                 1000,
+    //                 "easeInOutExpo"
+    //             );
+    //             return false;
+    //         }
+    //     }
+    // });
+
 
 	// On clicking a link
 
@@ -390,21 +414,21 @@
 		}
 	});
 
-	/*// sticky navbar
-	$(window).on('scroll', 'js-menu-sticky', function () {
-		// Get the header
-		var header = $(document).getElementById("myHeader");
+	// sticky navbar
+	// $(window).on('scroll', 'js-menu-sticky', function () {
+	// 	// Get the header
+	// 	var header = $(document).getElementById("myHeader");
 
-		// Get the offset position of the navbar
-		var sticky = header.offsetTop;
+	// 	// Get the offset position of the navbar
+	// 	var sticky = header.offsetTop;
 
-		// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-		if (window.pageYOffset > sticky) {
-	    header.classList.add("sticky");
-	  } else {
-	    header.classList.remove("sticky");
-	  }
-	});*/
+	// 	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	// 	if (window.pageYOffset > sticky) {
+	//     header.classList.add("sticky");
+	//   } else {
+	//     header.classList.remove("sticky");
+	//   }
+	// });
 
 
 

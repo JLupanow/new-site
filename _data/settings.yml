@@ -11,9 +11,9 @@ menu_settings:
     - title: 'Portfolio'
       url: '/'
     - title: 'Resume'
-      url: '/'
+      url: '/Jessica_Lupanow_Resume.pdf/'
     - title: 'About'
-      url: '/'
+      url: '/#about'
 
 footer_settings:
   logo_image: 
@@ -183,5 +183,5 @@ advanced_settings:
   ajax_loading: true
   analytics_code: ""
   custom_styles: ""
-  header_js: ""
+  header_js: ""    
   footer_js: ""

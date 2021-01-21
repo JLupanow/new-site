@@ -21,7 +21,11 @@
 				<ul class="menu__list">
 					{% for item in site.data.settings.menu_settings.menu_items %}
 					<li class="menu__list__item">
-						<a href="{{ item.url | relative_url }}" class="menu__list__item__link button--text">{{ item.title }}</a>
+						{% if item.title == "Resume" %}
+						<a href="{{ item.url | relative_url }}" target = "_blank" class="menu__list__item__link button--text js-scroll-trigger">{{ item.title }}</a>
+						{% else %}
+						<a href="{{ item.url | relative_url }}" class="menu__list__item__link button--text js-scroll-trigger">{{ item.title }}</a>
+						{% endif %}
 					</li>
 					{% endfor %}
 					<li class="menu__cta">
