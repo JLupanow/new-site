@@ -47,7 +47,15 @@
 
   .header__menu {
     display: flex;
-    justify-content: center;
+    
+
+    /*maybe centering HERE*/
+    justify-content: center; 
+    
+
+    /*justify-self: end;
+    align-self: center;*/
+
     width: 100vw;
     height: 100vh;
     background-color: white;
@@ -71,7 +79,7 @@
     padding: 64px 0;
 
     .wrap {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr; /*1fr;*/
     }
 
     .header__menu {
@@ -79,17 +87,28 @@
       height: initial;
       position: relative;
       background-color: none;
-      justify-self: center;
-      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      
+      /*maybe centering HERE*/
+      justify-content: flex-end;
+      /*justify-self: end;*/
+      align-items: center;
+
+      /*justify-self: center;
+      justify-content: center;*/
+
       opacity: 1;
       visibility: visible;
       top: 0;
       align-self: center;
     }
 
-    .header__menu,
+    
     .header__cta {
-      display: block;
+      display: inline-block;
+      white-space: nowrap;
+      margin-left: 50px;
     }
   }
 }
@@ -175,6 +194,10 @@
   list-style: none;
   display: flex;
   flex-direction: column;
+
+  /*centering added HERE*/
+  justify-content: center; 
+
   align-items: center;
   margin-top: 120px;
 
@@ -196,6 +219,14 @@
     }
   }
 
+  .menu__list__item__link {
+    transition: color 0.25s ease-in-out;
+
+      &:hover {
+        color: $accent-color;
+      }
+  }
+
   .menu__cta__link {
     color: $text-dark-color;
     
@@ -207,6 +238,10 @@
   @include mq(tabletp) {
     margin-top: 0;
     flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+
+
 
     .menu__list__item {
       margin-bottom: 0px;
@@ -219,7 +254,7 @@
     .menu__list__item__link {
       font-size: 14px;
       line-height: 18px;
-      display: inline-block;
+      display: block;
       font-weight: $button-weight;
       letter-spacing: $button-spacing;
       text-transform: uppercase;
