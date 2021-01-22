@@ -20,37 +20,42 @@
 	    line-height: 1;
 	    color: $text-dark-color;
 
-	    @include mq(tabletp) {
+		/*@include mq(tabletp) {
 	      font-size: $sitetitle-medium;
 	      margin-top: 40px;
 	    }
 
 	    @include mq(laptop) {
 	      font-size: $sitetitle-large;
-	    }
+	    }*/
 
 	    &:hover {
 	      color: $accent-color;
 	    }
 	}
 
-	.footer__socials {
-
-		@include mq(tabletp) {
-			justify-self: end;
-			align-self: right;
-			text-align: right;
-		}
+/*	.footer__socials {
+		justify-self: left !important;
 
 		p {
 			margin-bottom: 10px;
 		}
+		@include mq(tabletp) {
+			justify-self: center;
+			align-self: center;
+			text-align: center;
+		}
+	}*/
+
+	.tagline__smaller {
+		font-size: smaller;
 	}
 	
 	.footer__copyright {
 
 		@include mq(tabletp) {
 			justify-self: center;
+			justify-content: center;
 			align-self: center;
 			text-align: center;
 			margin-top: 30px
@@ -66,16 +71,16 @@
 		padding: 80px 0;
 
 		.wrap {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr;
 		}
 
 		.footer__logo {
 			justify-self: start;
 		}
 		
-		.footer__socials {
-			justify-self: end; 
-		}
+		/*.footer__socials {
+			justify-self: center; 
+		}*/
 
 		.footer__copyright {
 			justify-self: center; 
@@ -86,12 +91,17 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Social Icons
 
 .socials {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  align-items: right;
-  justify-content: right;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	justify-content: center; /* Commenting this out will left-align social icons in all views */
+	@include mq(tabletp) {
+	  	justify-self: start; /* Commenting this out will center social icons in all views */
+		align-self: center;
+		text-align: center;
+	}
 }
 
 .socials__item {
@@ -107,24 +117,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: $sitetitle-small;
-  height: $sitetitle-small;
+  width: 1.1*$sitetitle-small;
+  height: 1.1*$sitetitle-small;
   border-radius: 100%;
   background: $text-dark-color;
   font-size: 0.65*$sitetitle-small;
   color: $background-color;
 
-	@include mq(tabletp) {
+	/*@include mq(tabletp) {
 	    font-size: 0.65*$sitetitle-medium;
-	    width: $sitetitle-medium;
-	    height: $sitetitle-medium;
+	    width: 1.1*$sitetitle-medium;
+	    height: 1.1*$sitetitle-medium;
 	}
 
 	@include mq(laptop) {
 		font-size: 0.65*$sitetitle-large;
-		width: $sitetitle-large;
-		height: $sitetitle-large;
-	}
+		width: 1.1*$sitetitle-large;
+		height: 1.1*$sitetitle-large;
+	}*/
 
 
   &:hover {
