@@ -6,8 +6,11 @@
 
 
 .hero {
+	border: solid red;
 	position: relative;
-	padding: 40px 0 160px;
+	padding: 90px 0 0;
+	margin-bottom: 140px; /* gap between hero and portfolio in mobile view */
+	align-items: center;
 
 	/*Make about link jump to 100px above start of section so its not covered by navbar*/
 	a.navbar-link::before { 
@@ -19,22 +22,38 @@
 		pointer-events: none;
 	}
 
-	.wrap {
-		grid-gap: 0;
-	}
-
 	.title {
 		margin-bottom: 24px;
-		max-width: 380px;
+		align-self: center;
+		min-width: 450px;
+	} 
+
+	.main__title {
+		margin-bottom: 24px;
+
+		p {
+			font-family: $title-font;
+	    	font-size: $sitetitle-medium;
+	    	font-weight: $sitetitle-weight;
+	    	letter-spacing: $sitetitle-spacing;
+	    	line-height: 100%;
+
+		    @include mq(tabletp) {
+		      font-size: $sitetitle-large;
+		      max-width: 500px;
+		    }
+		}
+		
 	}
 
 	.title .subtitle {
-		margin-bottom: 80px;
+		margin-bottom: 60px;
+		max-width: 450px;
 	}
 
 	.intro {
 		position: relative;
-		max-width: 380px;
+		max-width: 390px;
 	}
 
 	.hero__cta {
@@ -44,19 +63,15 @@
 	}
 
 	@include mq(tabletp) {
-		padding: 40px 0 180px;
-
-		.wrap {
-			grid-template-columns: 1fr 1fr;
-		}
+		margin-bottom: 180px;  /* gap between hero and portfolio in tablet view */
 
 		.title {
 			margin-bottom: 0;
-			max-width: none;
+			max-width: 458px;
+			/*min-width: 400px;*/
 		}
 
 		.intro {
-			align-self: end;
 			margin-bottom: -80px;
 			max-width: 458px;
 		}
@@ -64,7 +79,21 @@
 		.hero__cta {
 			display: none;
 		}
+		.wrap {
+			grid-template-columns: 1fr 1fr;
+		}
 	}
+
+    @include mq(laptop) {
+    	.title {
+			max-width: none;
+		}
+		.intro {
+			max-width: 458px;
+		}
+		margin-bottom: 180px;  /* gap between hero and portfolio in laptop view */
+		
+    }
 }
 
 .hero__background {
@@ -83,14 +112,60 @@
 }
 
 .hero__image {
-	width: 100%;
-	/*margin: 0 0 40px 0;*/
-    max-width: 420px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
+	/*justify-content: flex-start;*/
+	/*margin-top: 24px;*/
+	
+	vertical-align: middle;
+	text-align: left;
+	margin-left: 0px;
+	display: flex;
+	align-items: center;
+	border: dashed blue;
+	height: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	/*min-width: 350px;*/
 
-    img {
-      margin-bottom: 24px;
-    }
+
+	@include mq(tablet) {
+		/*justify-content: flex-end;*/
+		text-align: right;
+		margin-left: 10%;
+		min-height: 500px;
+		margin-bottom: 100px;
+		margin-top: 100px;
+	}
+
+	@include mq(laptop) {
+		/*justify-content: flex-end;*/
+		text-align: right;
+		margin-left: 10%;
+		height: 500px;
+		margin-bottom: 100px;
+		margin-top: 0px;
+	}
+
+	img {
+		/*vertical-align: middle;*/
+		vertical-align: middle;
+		/*width: 100%;*/
+	    /*max-height: 400px;
+	    max-width: 600px;*/
+	    /*display: flex;
+	    flex-direction: column;*/
+	    /*justify-self: start;
+	    align-self: center;*/
+
+	    @include mq(tablet) {
+	    	/*justify-self: end;*/
+	    	/*align-self: center;*/
+	    	/*max-height: 600px;*/
+		}
+
+		@include mq(laptop) {
+	    	/*justify-self: end;*/
+	    	/*align-self: center;*/
+	    	/*max-height: 600px;*/
+		}
+	}
 }

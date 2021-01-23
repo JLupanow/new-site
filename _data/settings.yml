@@ -72,15 +72,15 @@ color_settings:
   error_color: '#871613'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Ubuntu+Mono:400,700" rel="stylesheet">'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">'
   title_font: 'Rubik, sans-serif'
-  body_font: '"Ubuntu Mono", sans-serif'
+  body_font: 'Poppins, sans-serif'
   regular_weight: 400
   bold_weight: 700
   site_title:
     small_size: 30
-    medium_size: 35
-    large_size: 40
+    medium_size: 64
+    large_size: 80
     weight: 700
     letter_spacing: -0.02
   menu:

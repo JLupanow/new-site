@@ -1,7 +1,6 @@
 ---
 layout: default
-overtitle:
-title: UX Problem Solver
+title: UX Designer & Strategist
 description: I leverage my design, research, and strategy skills to craft elegant, data-driven digital products for teams tackling health and social challenges.
 featured_image: /images/social.jpg
 ---
@@ -16,15 +15,16 @@ featured_image: /images/social.jpg
 		<a class="navbar-link" name="home"></a>
 		<div class="wrap grid">
 			<div class="title">
-				<p class="subtitle">{{ page.overtitle }}</p>
-				<h1>{{ page.title }}</h1>
+				<div class="main__title">
+					<p>{{ page.title }}</p>
+				</div>
 				<p class="intro subtitle--light">
 					{{ page.description }}
 					<a href="#" class="hero__cta button--fill contact-trigger js-contact">Get In Touch</a>
 				</p>
 			</div>
 			<div class = "hero__image">
-				<img src="{{ '/images/profile-demo.jpg' | relative_url }}" alt="">
+				<img src="{{ '/images/hero-image.jpg' | relative_url }}" alt="">
 			</div>
 		</div>
 	</section>
@@ -32,8 +32,9 @@ featured_image: /images/social.jpg
 	<section class="listing">
 		<div class="wrap">
 			<a class="navbar-link" name="portfolio"></a>
-			<h2 class="title">Portfolio</h2>
-			<p class="subtitle subtitle--light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+			<p class="title">Portfolio</p>
+			<p class="subtitle subtitle--light">
+				Below is a selection of my recent work. You can also <a href="#" onclick='window.open("{{ relative_url }}/Jessica_Lupanow_Portfolio.pdf/");return false;'>view my portfolio as a pdf</a>. 
       		</p>
       		<br>
       		<br>

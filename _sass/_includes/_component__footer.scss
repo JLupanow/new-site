@@ -96,9 +96,9 @@
 	margin: 0;
 	padding: 0;
 	align-items: center;
-	justify-content: center; /* Commenting this out will left-align social icons in all views */
+	justify-content: start; /* Commenting this out will left-align social icons in all views */
 	@include mq(tabletp) {
-	  	justify-self: start; /* Commenting this out will center social icons in all views */
+	  	justify-content: center; /* Commenting this out will center social icons in all views */
 		align-self: center;
 		text-align: center;
 	}

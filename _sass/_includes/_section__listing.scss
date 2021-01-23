@@ -8,6 +8,19 @@
   margin-bottom: 120px;
   overflow: hidden;
 
+  p.title {
+    font-family: $title-font;
+    font-size: $h2-size;
+    font-weight: $sitetitle-weight;
+    letter-spacing: $sitetitle-spacing;
+    line-height: 100%;
+
+    @include mq(tabletp) {
+      font-size: $h1-size;
+    }
+  }
+
+
   /*Make about link jump to 100px above start of section so its not covered by navbar*/
   a.navbar-link::before { 
     display: block; 

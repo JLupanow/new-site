@@ -109,6 +109,12 @@
     .header__cta {
       display: inline-block;
       white-space: nowrap;
+      margin-left: 30px;
+    }
+  }
+
+  @include mq(laptop) {
+    .header__cta {
       margin-left: 50px;
     }
   }
@@ -264,13 +270,11 @@
     justify-content: flex-end;
     display: flex;
 
-
-
     .menu__list__item {
       margin-bottom: 0px;
       
       &:not(:first-child) {
-        margin-left: 50px;
+        margin-left: 30px;
       }
     }
 
@@ -296,6 +300,16 @@
       &:hover {
         color: $accent-color;
       }*/
+    }
+  }
+
+  @include mq(laptop) {
+    .menu__list__item {
+      margin-bottom: 0px;
+      
+      &:not(:first-child) {
+        margin-left: 50px;
+      }
     }
   }
 }
