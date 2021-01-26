@@ -1,0 +1,54 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Component - Project Card
+
+// - - - - - - - - - - - - - - - - - -
+
+.project__card {
+  transition: all 120ms;
+  box-sizing: content-box;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  .project__link {
+    display: block;
+  }
+
+  .project__image {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 16px;
+  }
+
+  .project__date {
+    margin-bottom: 6px;
+  }
+
+  .project__title {
+    margin-bottom: 16px;
+  }
+
+  .project__subtitle {
+    margin-bottom: 16px;
+  }
+
+  @include mq("460px") {
+    .project__image {
+      height: 250px;
+    }
+  }
+
+  @include mq(tabletp) {
+    .project__title {
+      margin-bottom: 32px;
+    }
+
+    .project__subtitle {
+      margin-bottom: 32px;
+    }
+  }
+}

@@ -6,11 +6,14 @@
 
 
 .hero {
-	border: solid red;
 	position: relative;
-	padding: 90px 0 0;
-	margin-bottom: 140px; /* gap between hero and portfolio in mobile view */
+	/*padding: 90px 0 0;*/
+	margin-top: -20px;
+	margin-bottom: 10vh; /* gap between hero and portfolio in mobile view */
 	align-items: center;
+	display: flex;
+	height: auto;
+	top: 0px;
 
 	/*Make about link jump to 100px above start of section so its not covered by navbar*/
 	a.navbar-link::before { 
@@ -26,6 +29,7 @@
 		margin-bottom: 24px;
 		align-self: center;
 		min-width: 450px;
+		padding: 100px 0 0;
 	} 
 
 	.main__title {
@@ -63,11 +67,15 @@
 	}
 
 	@include mq(tabletp) {
-		margin-bottom: 180px;  /* gap between hero and portfolio in tablet view */
+		height: 90vh;
+		min-height: 600px;
+		margin-bottom: 40px;  /* gap between hero and portfolio in tablet view */
+		margin-top: -60px;
 
 		.title {
 			margin-bottom: 0;
 			max-width: 458px;
+			padding: 0 0 0;
 			/*min-width: 400px;*/
 		}
 
@@ -85,13 +93,18 @@
 	}
 
     @include mq(laptop) {
+    	height: 90vh;
+    	min-height: 600px;
+    	margin-top: -75px;
+    	padding: 0 0 0;
+
     	.title {
 			max-width: none;
 		}
 		.intro {
 			max-width: 458px;
 		}
-		margin-bottom: 180px;  /* gap between hero and portfolio in laptop view */
+		margin-bottom: 80px;  /* gap between hero and portfolio in laptop view */
 		
     }
 }
@@ -120,10 +133,10 @@
 	margin-left: 0px;
 	display: flex;
 	align-items: center;
-	border: dashed blue;
 	height: auto;
 	margin-bottom: 0px;
 	margin-top: 0px;
+	align-self: center;
 	/*min-width: 350px;*/
 
 
@@ -131,18 +144,18 @@
 		/*justify-content: flex-end;*/
 		text-align: right;
 		margin-left: 10%;
-		min-height: 500px;
-		margin-bottom: 100px;
-		margin-top: 100px;
+		max-height: 500px;
+		/*margin-bottom: 100px;*/
+		/*margin-top: 100px;*/
 	}
 
 	@include mq(laptop) {
 		/*justify-content: flex-end;*/
 		text-align: right;
 		margin-left: 10%;
-		height: 500px;
-		margin-bottom: 100px;
-		margin-top: 0px;
+		max-height: 500px;
+		/*margin-bottom: 100px;
+		margin-top: 0px;*/
 	}
 
 	img {
