@@ -19,6 +19,9 @@
 
   hr {
     margin-bottom: 80px;
+    z-index: 20000;
+    background-color: $accent-color;
+    display: block;
   }
 
   .about__image {
