@@ -247,7 +247,7 @@
 					$this.children('.gallery__wrap').owlCarousel({
 						items: 1,
 						loop: true,
-						mouseDrag: false,
+						mouseDrag: true,
 						touchDrag: true,
 						pullDrag: false,
 						dots: true,

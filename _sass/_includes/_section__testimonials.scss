@@ -4,7 +4,7 @@
 
 // - - - - - - - - - - - - - - - - - -
 .testimonials {
-  margin-bottom: 120px;
+  margin-bottom: 0px;
   text-align: center;
 
   .grid {
@@ -73,7 +73,7 @@
       margin: 0 0 0 30px;
       font-size: 18px;
       font-weight: bold;
-      letter-spacing: 2;
+      letter-spacing: 1px;
       line-height: 22px;
       color: white;
       position: relative;
@@ -93,7 +93,7 @@
       font-size: 14px;
       font-weight: normal;
       font-family: $body-font;
-      letter-spacing: 2 !important;
+      letter-spacing: 1px;
 
       color: white;
       margin-top: 0px;

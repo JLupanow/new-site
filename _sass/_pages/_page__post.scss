@@ -30,7 +30,7 @@
 
   .post__content {
     max-width: 656px;
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
 
     p {
       margin-bottom: 16px;
@@ -279,7 +279,7 @@
     }
 
     .post__content {
-      margin-bottom: 120px;
+      /*margin-bottom: 120px;*/
 
       p img {
         margin: 72px 0;
@@ -315,12 +315,12 @@
   margin-bottom: 120px;
   grid-gap: 20px;
 
-  a {
+  /*a {
     padding: 32px 30px;
     border: 1px solid $border-color;
     border-radius: 8px;
     position: relative;
-  }
+  }*/
 
   .prev-post::before,
   .next-post::before {

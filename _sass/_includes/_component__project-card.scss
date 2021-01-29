@@ -7,13 +7,19 @@
 .project__card {
   transition: all 120ms;
   box-sizing: content-box;
+  text-decoration: none !important;
 
   &:hover {
     transform: translateY(-4px);
+    
+    .project__title {
+      color: $accent-color;
+    }
   }
 
   .project__link {
     display: block;
+    text-decoration: none !important;
   }
 
   .image__frame {
@@ -38,10 +44,12 @@
 
   .project__title {
     margin-bottom: 0px;
+    text-decoration: none !important;
   }
 
   .project__subtitle {
     margin-bottom: 0px;
+    text-decoration: none !important;
   }
 
   /*@include mq("460px") {

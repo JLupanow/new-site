@@ -5,7 +5,7 @@
 // - - - - - - - - - - - - - - - - - -
 
 .listing {
-  margin-bottom: 120px;
+  margin-bottom: 40px;
   overflow: hidden;
 
   p.title {
@@ -31,127 +31,6 @@
     pointer-events: none;
   }
 
-  /*.owl-dots {
-    position: absolute;
-    bottom: -50px;
-    margin: 8px 0 16px 0;
-
-    .owl-dot {
-      width: 24px;
-      height: 24px;
-      margin-right: 8px;
-      cursor: pointer;
-      background-color: white;
-      @include transition(all 0.4s cubic-bezier(0.65, 0.05, 0.36, 1) 0s);
-      outline: none;
-
-      &:after {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 4px;
-        background-color: $border-color;
-        border-radius: 8px;
-        @include transition(all 0.4s cubic-bezier(0.65, 0.05, 0.36, 1) 0s);
-      }
-
-      &.active {
-        width: 48px;
-
-        &:after {
-          background: var(--accent);
-        }
-      }
-    }
-  }*/
-
-  /*@include mq(tabletl) {
-
-    .project__images:hover {
-
-      .owl-nav {
-        opacity: 1;
-      }
-    }
-  }*/
-
-  /*.owl-nav {
-
-    @include mq(tabletl) {
-      display: block;
-      opacity: 0;
-      @include transition(all 0.2s ease-in-out);
-    }
-
-    button {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      border: 0;
-      background: 0;
-      width: 50px;
-
-      &.owl-prev {
-        left: 0;
-      }
-
-      &.owl-next {
-        right: 0;
-      }
-
-      @media only screen and (min-width: 1320px) {
-        width: calc((100vw - 1140px) / 2);
-
-        &.owl-prev {
-          left: auto;
-          right: 100%;
-
-          svg {
-            margin-left: -10px;
-          }
-        }
-
-        &.owl-next {
-          right: auto;
-          left: 100%;
-
-          svg {
-            margin-left: 10px;
-          }
-        }
-      }
-
-      svg {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        @include translate(-50%,-50%);
-        width: 30px;
-        height: 48px;
-        fill: $background-color;
-        opacity: 0.5;
-        @include transition(all 0.2s ease-in-out);
-      }
-
-      &:focus {
-        outline: none;
-      }
-
-      &.disabled {
-
-        svg {
-          opacity: 0 !important;
-        }
-      }
-
-      &:hover {
-
-        svg {
-          opacity: 1;
-        }
-      }
-    }
-  }*/
   
   .projects__list {
     width: 100%;
@@ -160,16 +39,11 @@
     margin-bottom: 48px;
   }
 
-  /*.project__image {
-      height: 360px;
-    }*/
-
   .action-bottom {
     justify-self: center;
   }
 
   @include mq(tabletp) {
-    /*padding: 120px 0 110px;*/
 
     .projects__list {
       width: 100%;
@@ -177,10 +51,6 @@
       grid-gap: 56px;
       margin-bottom: 48px;
     }
-
-    /*.project__image {
-      height: 180px;
-    }*/
 
     .action-bottom {
       display: none;
@@ -192,10 +62,6 @@
       grid-gap: 30px;
       grid-template-columns: 1fr 1fr 1fr;
     }
-
-    /*.project__image {
-      height: 250px;
-    }*/
   }
 }
 

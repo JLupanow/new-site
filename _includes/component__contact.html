@@ -5,20 +5,20 @@
     <div class="contact__wrap">
       <header class="contact__header">
         <h2 class="title">Get In Touch</h2>
-        <p class="subtitle--light">Prefer using email? Say hi at <a
-            href="mailto: {{ site.data.settings.contact_settings.email_address }}">{{ site.data.settings.contact_settings.email_address }}</a>
+        <p class="subtitle--light">Prefer using email?<br/>Say hi at <a
+            href="mailto: {{ site.data.settings.contact_settings.email_address }}">jessica.lupanow AT gmail DOT com</a>
         </p>
       </header>
 
       <form method="POST" action="{{ site.data.settings.contact_settings.form_action }}" class="contact__form">
         <div class="input-group">
           <label for="name">Your Name</label>
-          <input type="text" name="name" id="name" placeholder="What should I call you?" />
+          <input type="text" name="name" id="name" placeholder="What should I call you?" required/>
         </div>
 
         <div class="input-group">
           <label for="email">Your Email</label>
-          <input type="email" name="email" id="email" placeholder="What's your email address?" />
+          <input type="email" name="email" id="email" placeholder="What's your email address?" required/>
         </div>
 
         <div class="input-group">

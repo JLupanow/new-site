@@ -119,6 +119,7 @@ h6,
   a {
     font-weight: 500;
     text-decoration: underline;
+    text-decoration-thickness: 2px;
     text-decoration-color: transparentize($color: $accent-color, $amount: 0.8);
   }
 
@@ -185,9 +186,23 @@ a {
   font-weight: $bold-weight;
   @include transition(all 120ms ease-in-out);
 
+  /*Make about link jump to 100px above start of section so its not covered by navbar*/
+  /*&:before { 
+    display: block; 
+    content: " "; 
+    margin-top: -100px; 
+    height: 100px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }*/
+
   &:hover {
     color: $accent-color;
   }
+  /*font-weight: $bold-weight;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: transparentize($color: $accent-color, $amount: 0.8);*/
 }
 
 .label {

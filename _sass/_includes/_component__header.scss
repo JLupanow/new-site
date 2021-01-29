@@ -9,6 +9,7 @@
 .header--main {
   padding: 20px 0;
   background-color: white;
+  text-decoration: none !important;
   /*border: 0 0 1px 0;
   border-style: none none solid none;
   border-color: rgba(0,0,0,0.01);*/
@@ -40,6 +41,7 @@
     color: $text-dark-color;
     transition: color 0.25s ease-in-out;
     white-space: nowrap;
+    text-decoration: none !important;
 
     /*@include mq(tabletp) {
       font-size: $sitetitle-medium;
@@ -219,6 +221,7 @@
     letter-spacing: $h4-spacing-small;
     text-transform: none;
     color: $text-dark-color; 
+    text-decoration: none !important;
 
     &.hover {
       color: $accent-color;
