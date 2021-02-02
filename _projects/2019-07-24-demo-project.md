@@ -4,7 +4,7 @@ subtitle: High-fidelity mobile app designs for a super awesome social media comp
 date: 2019-07-24 00:00:00
 description: This is a demo post that shows what you can do inside portfolio and blog posts. We’ve included everything you need to create engaging posts and case studies to show off your work in a beautiful way.
 featured_image: demo.jpg
-accent_color: '#4C60E6'
+accent_color: '#2f3ced'
 gallery_images:
   - demo.jpg
   - demo.jpg
@@ -33,7 +33,37 @@ And:
 
 You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
 
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
+> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”  
+
+You can also have expanding sections:
+
+[expand]
+<div class="content">
+
+We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+
+![](/images/demo.jpg)
+
+**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+You can create lists:
+
+* Simple bulleted lists
+* Like this one
+* Are cool
+
+And:
+
+1. Numbered lists
+2. Like this other one
+3. Are great too
+
+You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
+
+> “Simple can be harder than complex: You have to work ha
+</div>
+[/expand]
+
 
 The theme also supports markdown tables:
 

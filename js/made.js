@@ -65,30 +65,6 @@
 
 	});
 
-	// Smooth scrolling using jQuery easing
-    // $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
-    //     if (
-    //         location.pathname.replace(/^\//, "") ==
-    //             this.pathname.replace(/^\//, "") &&
-    //         location.hostname == this.hostname
-    //     ) {
-    //         var target = $(this.hash);
-    //         target = target.length
-    //             ? target
-    //             : $("[name=" + this.hash.slice(1) + "]");
-    //         if (target.length) {
-    //             $("html, body").animate(
-    //                 {
-    //                     scrollTop: target.offset().top - 72,
-    //                 },
-    //                 1000,
-    //                 "easeInOutExpo"
-    //             );
-    //             return false;
-    //         }
-    //     }
-    // });
-
 
 	// On clicking a link
 
@@ -192,7 +168,6 @@
 		$('.active-link').removeClass('active-link');
 
 		$('a[href="' + navTarget + '"]').addClass('active-link');
-
 
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Galleries
@@ -384,6 +359,23 @@
 		$('.post__content table').each(function () {
 			$(this).wrapAll('<div class="table-wrap"></div>');
 		});
+		
+
+		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Create collapsible sections
+		$(function() {
+			var elements = document.querySelectorAll('p');
+		    Array.prototype.forEach.call(elements, function(el, i){
+		        if(el.innerHTML=='[expand]') {
+		            var parentcontent = el.parentNode.innerHTML.replace('<p>[expand]</p>','<div class="expand" style="display: none; height: 0; overflow: hidden;">').replace('<p>[/expand]</p>','</div>');
+		            el.parentNode.innerHTML = parentcontent;
+		        }
+		    });
+
+		    var elements = document.querySelectorAll('div.expand');
+		    Array.prototype.forEach.call(elements, function(el, i){
+		        el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<br/><span><a href="/" style="cursor: pointer;" class="details" onclick="if(this.parentNode.parentNode.nextElementSibling.style.display == \'none\'){this.innerHTML = \'-View&nbsp;fewer&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\';}else{this.innerHTML = \'+View&nbsp;more&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'none\'; this.parentNode.parentNode.nextElementSibling.style.height = 0;} event.preventDefault();">+View&nbsp;more&nbsp;details&nbsp;</a></span>';
+		    });
+		});
 
 	}
 
@@ -413,22 +405,6 @@
 			$('.menu').removeClass('menu--open');
 		}
 	});
-
-	// sticky navbar
-	// $(window).on('scroll', 'js-menu-sticky', function () {
-	// 	// Get the header
-	// 	var header = $(document).getElementById("myHeader");
-
-	// 	// Get the offset position of the navbar
-	// 	var sticky = header.offsetTop;
-
-	// 	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-	// 	if (window.pageYOffset > sticky) {
-	//     header.classList.add("sticky");
-	//   } else {
-	//     header.classList.remove("sticky");
-	//   }
-	// });
 
 
 

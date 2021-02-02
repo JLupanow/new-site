@@ -1,0 +1,28 @@
+<script>
+    
+    var elements = document.querySelectorAll('p');
+    Array.prototype.forEach.call(elements, function(el, i){
+        if(el.innerHTML=='[expand]') {
+            var parentcontent = el.parentNode.innerHTML.replace('<p>[expand]</p>','<div class="expand" style="display: none; height: 0; overflow: hidden;">').replace('<p>[/expand]</p>','</div>');
+            el.parentNode.innerHTML = parentcontent;
+        }
+    });
+
+    var elements = document.querySelectorAll('div.expand');
+    Array.prototype.forEach.call(elements, function(el, i){
+        el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<br/><span><a href="#/" style="cursor: pointer;" class="details" onclick="if(this.parentNode.parentNode.nextElementSibling.style.display == \'none\'){this.innerHTML = \'-View&nbsp;fewer&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\';}else{this.innerHTML = \'+View&nbsp;more&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'none\'; this.parentNode.parentNode.nextElementSibling.style.height = 0;} return false;">+View&nbsp;more&nbsp;details&nbsp;</a></span>';
+    });
+
+</script>
+
+<!-- <span>
+    <a href="#" style="cursor: pointer;" 
+    onclick="this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; 
+    this.parentNode.parentNode.nextElementSibling.style.height = \'auto\'; 
+    this.parentNode.style.display = \'none\';">
+        read&nbsp;more&nbsp;&rarr;
+    </a>
+</span>' -->
+
+<!-- if(this.innerHTML == \'View&nbsp;more&nbsp;details&nbsp;+\';){this.innerHTML = \'View&nbsp;fewer&nbsp;details&nbsp;-\';} else{this.innerHTML = \'View&nbsp;more&nbsp;details&nbsp;+\';} -->
+
