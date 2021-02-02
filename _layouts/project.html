@@ -3,11 +3,10 @@ layout: default
 ---
 
 {% if page.accent_color %}{% capture accent_color %}{{ page.accent_color }}{% endcapture %}{% endif %}
-<a name="{{ page.title }}_top"></a>
+
 <div class="page-project" style="--accent: {{ accent_color }}">
 
 	<header class="post__header header--single">
-		<a name="{{ page.title }}_top"></a>
 
 		<div class="wrap">
 			<h1 class="post__title">{{ page.title }}</h1>
@@ -20,10 +19,6 @@ layout: default
 	<section class="post-full">
 
 		<div class="wrap">
-			<!-- <button type="button" class="collapsible">Open Collapsible</button>
-			<div class="content">
-			  <p>Lorem ipsum...</p>
-			</div> -->
 
 			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
 				{{ page.content }}
@@ -35,39 +30,3 @@ layout: default
 	</section>
 
 </div>
-
-<script>
-
-// var coll = document.getElementsByClassName("collapsible");
-// var i;
-
-// for (i = 0; i < coll.length; i++) {
-//   coll[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var content = this.nextElementSibling;
-//     if (content.style.maxHeight){
-//       content.style.maxHeight = null;
-//     } else {
-//       content.style.maxHeight = content.scrollHeight + "px";
-//     } 
-//   });
-// }
-
-// var coll = document.getElementsByClassName("collapsible");
-// var i;
-
-// for (i = 0; i < coll.length; i++) {
-//   coll[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var content = this.nextElementSibling;
-//     content.style.backgroundColor = "red";
-
-//     if (content.style.display === "block") {
-//       content.style.display = "none";
-//     } else {
-//       content.style.display = "block";
-//     }
-//   });
-// }
-
-</script>

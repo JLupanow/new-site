@@ -10,7 +10,7 @@
 
     var elements = document.querySelectorAll('div.expand');
     Array.prototype.forEach.call(elements, function(el, i){
-        el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<br/><span><a href="#/" style="cursor: pointer;" class="details" onclick="if(this.parentNode.parentNode.nextElementSibling.style.display == \'none\'){this.innerHTML = \'-View&nbsp;fewer&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\';}else{this.innerHTML = \'+View&nbsp;more&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'none\'; this.parentNode.parentNode.nextElementSibling.style.height = 0;} return false;">+View&nbsp;more&nbsp;details&nbsp;</a></span>';
+        el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<br/><span><a href="#/" style="cursor: pointer;" class="details" onclick="if(this.parentNode.parentNode.nextElementSibling.style.display == \'none\'){this.innerHTML = \'-View&nbsp;fewer&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\';}else{this.innerHTML = \'+View&nbsp;more&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'none\'; this.parentNode.parentNode.nextElementSibling.style.height = 0;} return false">+View&nbsp;more&nbsp;details&nbsp;</a></span>';
     });
 
 </script>

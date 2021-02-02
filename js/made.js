@@ -170,6 +170,7 @@
 		$('a[href="' + navTarget + '"]').addClass('active-link');
 
 
+
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Galleries
 
 		// Destroy all existing waypoints
@@ -222,7 +223,7 @@
 					$this.children('.gallery__wrap').owlCarousel({
 						items: 1,
 						loop: true,
-						mouseDrag: true,
+						mouseDrag: false,
 						touchDrag: true,
 						pullDrag: false,
 						dots: true,
@@ -359,23 +360,22 @@
 		$('.post__content table').each(function () {
 			$(this).wrapAll('<div class="table-wrap"></div>');
 		});
-		
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Create collapsible sections
-		$(function() {
-			var elements = document.querySelectorAll('p');
-		    Array.prototype.forEach.call(elements, function(el, i){
-		        if(el.innerHTML=='[expand]') {
-		            var parentcontent = el.parentNode.innerHTML.replace('<p>[expand]</p>','<div class="expand" style="display: none; height: 0; overflow: hidden;">').replace('<p>[/expand]</p>','</div>');
-		            el.parentNode.innerHTML = parentcontent;
-		        }
-		    });
+		// $(function() {
+		// 	var elements = document.querySelectorAll('p');
+		//     Array.prototype.forEach.call(elements, function(el, i){
+		//         if(el.innerHTML=='[expand]') {
+		//             var parentcontent = el.parentNode.innerHTML.replace('<p>[expand]</p>','<div class="expand" style="display: none; height: 0; overflow: hidden;">').replace('<p>[/expand]</p>','</div>');
+		//             el.parentNode.innerHTML = parentcontent;
+		//         }
+		//     });
 
-		    var elements = document.querySelectorAll('div.expand');
-		    Array.prototype.forEach.call(elements, function(el, i){
-		        el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<br/><span><a href="/" style="cursor: pointer;" class="details" onclick="if(this.parentNode.parentNode.nextElementSibling.style.display == \'none\'){this.innerHTML = \'-View&nbsp;fewer&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\';}else{this.innerHTML = \'+View&nbsp;more&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'none\'; this.parentNode.parentNode.nextElementSibling.style.height = 0;} event.preventDefault();">+View&nbsp;more&nbsp;details&nbsp;</a></span>';
-		    });
-		});
+		//     var elements = document.querySelectorAll('div.expand');
+		//     Array.prototype.forEach.call(elements, function(el, i){
+		//         el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<br/><span><a href="/" style="cursor: pointer;" class="details" onclick="if(this.parentNode.parentNode.nextElementSibling.style.display == \'none\'){this.innerHTML = \'-View&nbsp;fewer&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\';}else{this.innerHTML = \'+View&nbsp;more&nbsp;details&nbsp;\'; this.parentNode.parentNode.nextElementSibling.style.display = \'none\'; this.parentNode.parentNode.nextElementSibling.style.height = 0;} event.preventDefault();">+View&nbsp;more&nbsp;details&nbsp;</a></span>';
+		//     });
+		// });
 
 	}
 

@@ -20,8 +20,7 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
-	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} –
-		{{ page.title }}{% else %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% endif %}</title>
+	<title>{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}</title>
 	<meta name="description" content="{{ page.description | strip_html | xml_escape }}">
 
 	<!-- Twitter Card -->
@@ -131,7 +130,6 @@
 	{{ site.data.settings.advanced_settings.footer_js }}
 	{% endif %}
 
-	<!-- {% include text-expand.html %} -->
 </body>
 
 </html>

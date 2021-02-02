@@ -9,7 +9,7 @@
 
   .post__subtitle {
     margin-bottom: 48px;
-    max-width: 556px;
+    max-width: 100%;
   }
 
   /*Make about link jump to 100px above start of section so its not covered by navbar*/
@@ -22,23 +22,19 @@
     pointer-events: none;
   }
 
-  a.details {
+/*  a.details {
     color: $accent-color;
-  }
+  }*/
 
   /* Style the collapsible content. */
-  .content {
+/*  .content {
     width: 100%;
     display: block;
-    /*overflow: hidden;*/
     background-color: $background-alt-color;
     transition: max-height 0.2s ease-out;
-    /*margin-bottom: 40px;*/
     font-size: inherit;
     position: relative;
     padding: 20px 0 0;
-
-    /*max-height: 0;*/
     transition: max-height 0.2s ease-out;
   }
 
@@ -54,9 +50,7 @@
     display: block;
     top: 0;
     bottom: 0;
-    /*border-left: 5px solid red;
-    border-right: 5px solid red;*/
-  }
+  }*/
   
 
   .post__content {
