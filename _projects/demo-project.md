@@ -1,8 +1,8 @@
 ---
 title: DEMO
-subtitle: High-fidelity mobile app designs for a super awesome social media company.
+subtitle: Here are the things/skills that were part of this project
 date: 2019-07-24 00:00:00
-description: This is a demo post that shows what you can do inside portfolio and blog posts. We’ve included everything you need to create engaging posts and case studies to show off your work in a beautiful way.
+description: Here is a quick summary of the reason for the project, what I did at a high level, and who the client was.
 featured_image: demo.jpg
 accent_color: '#4C60E6'
 gallery_images:
@@ -10,6 +10,50 @@ gallery_images:
   - demo.jpg
   - demo.jpg
 ---
+
+## The Challenge
+
+Why did this project need to happen? What was the goal and why? Who was the user/customer? What was my role? Who else worked on this? Were there any unique or limiting factors like budget, time, time zones, etc.
+
+## The Process
+
+1. [Step 1: Present tense Verb+noun](#link1)
+2. [Step 2: Present tense Verb+noun](#link2)
+3. [Step 3: Present tense Verb+noun](#link3)
+
+#### Step 1 {#link1}
+
+The step title should be the reason for doing the step or what was learned. A single headline/sentence. Or put a block quote at the end with the major finding of that step.
+What did you do? For example, what research method did you use?
+Why did you do it?  For example, why did you choose that research method?
+What was the result?  For example, did you achieve your research goals?
+What did you learn? For example, what would you do differently next time?
+
+#### Step 2 {#link2}
+
+What did you do? For example, what research method did you use?
+Why did you do it?  For example, why did you choose that research method?
+What was the result?  For example, did you achieve your research goals?
+What did you learn? For example, what would you do differently next time?
+
+#### Step 3 {#link3}
+
+What did you do? For example, what research method did you use?
+Why did you do it?  For example, why did you choose that research method?
+What was the result?  For example, did you achieve your research goals?
+What did you learn? For example, what would you do differently next time?
+
+## The Outcome
+
+What happened in the end? Were the goals achieved? Were there lessons learned?
+
+
+##### Thank you for reading. If you are interested in my work, reach out. I’d love to learn about your company and see how I can help!
+
+<a href="#" class="cta button--fill contact-trigger js-contact">Get in Touch</a>
+
+
+## Possible Formatting (REMOVE EVERYTHING BELOW)
 
 This page is a demo that shows everything you can do inside portfolio and blog posts.
 

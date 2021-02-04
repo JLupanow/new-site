@@ -181,10 +181,14 @@ blockquote {
 }
 
 a {
-  text-decoration: none;
+  /*text-decoration: none;
   color: $text-dark-color;
-  font-weight: $bold-weight;
+  font-weight: $bold-weight;*/
   @include transition(all 120ms ease-in-out);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: transparentize($color: $accent-color, $amount: 0.8);
 
   /*Make about link jump to 100px above start of section so its not covered by navbar*/
   /*&:before { 
