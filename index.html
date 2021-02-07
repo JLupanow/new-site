@@ -102,7 +102,7 @@ featured_image: /images/social.jpg
 			<a name="portfolio"></a>
 			<p class="title">Portfolio</p>
 			<p class="subtitle subtitle--light">
-				Below is a selection of my recent work as well as some comments from prior clients and supervisors. You can also <a href="#" onclick='window.open("{{ relative_url }}/Jessica_Lupanow_Portfolio.pdf/");return false;'>view my portfolio as a pdf</a>. 
+				Below is a selection of my recent work as well as some comments from prior clients, supervisors, and product end users.<!--  You can also <a href="#" onclick='window.open("{{ relative_url }}/Jessica_Lupanow_Portfolio.pdf/");return false;'>view my portfolio as a pdf </a>.-->
       		</p>
       		<br>
       		<br>
@@ -121,7 +121,8 @@ featured_image: /images/social.jpg
 						    	</div>
 						    </div>
 						    <h4 class="project__title">{{ project.title }}</h4>
-						    <p class="project__subtitle subtitle--light">{{ project.subtitle }}</p>
+						    <p class="project__role">{{ project.subtitle }}</p>
+						    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
 						  </a>
 						</article>
 					{% endif %}
@@ -152,16 +153,33 @@ featured_image: /images/social.jpg
 						      		</div>
 						      		<h3 class="testimonial-name">
 						      			Jeff Yue
-						      			<span class="post">Founder and CEO of BehaveWare</span>
+						      			<span class="post">Client, Founder and CEO of BehaveWare</span>
 						      		</h3>
 						  		</div>
 						  	</div>
 		    			</div>
 
+		    			<div class="item">
+					      	<div class="shadow-effect">
+					        	<p>This app is straightforward, streamlined, and very user friendly. The step-by-step walkthroughs and intuitive design help you get started making tasks right away.</p>
+					      	</div>
+					      	<div class="container">
+						      	<div class="testimonial-person">
+						      		<div class="testimonial-picture">
+						      			<img src="{{ '/images/l-bullard.jpg' | relative_url }}" alt="">
+						      		</div>
+						      		<h1 class="testimonial-name">
+						      			L. Bullard
+						      			<span class="post">End User, Promptly by BehaveWare</span>
+						      		</h1>
+						  		</div>
+						  	</div>
+					    </div>
+
 					    <!--TESTIMONIAL 2 -->
 					    <div class="item">
 					      	<div class="shadow-effect">
-					        	<p>blah blah blah.</p>
+					        	<p>Jessica has a sharp mind, a dry wit, and insanely fast research skills.</p>
 					      	</div>
 					      	<div class="container">
 						      	<div class="testimonial-person">
@@ -170,14 +188,14 @@ featured_image: /images/social.jpg
 						      		</div>
 						      		<h3 class="testimonial-name">
 						      			Jaime Levy
-						      			<span class="post">Product Strategist and Author of <i>UX Strategy</i></span>
+						      			<span class="post">Supervisor, Jaime Levy Consulting</i></span>
 						      		</h3>
 						  		</div>
 						  	</div>
 					    </div>
 
 					    <!--TESTIMONIAL 3 -->
-					    <div class="item">
+					    <!-- <div class="item">
 					      	<div class="shadow-effect">
 					        	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 					      	</div>
@@ -188,11 +206,11 @@ featured_image: /images/social.jpg
 						      		</div>
 						      		<h1 class="testimonial-name">
 						      			Joy Haag
-						      			<span class="post">President of Sentry Mirror</span>
+						      			<span class="post">Client, President of Sentry Mirror</span>
 						      		</h1>
 						  		</div>
 						  	</div>
-					    </div>
+					    </div> -->
 
 					</div>
 				</div>

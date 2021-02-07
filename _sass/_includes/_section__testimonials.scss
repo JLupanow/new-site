@@ -78,6 +78,7 @@
       color: white;
       position: relative;
       top: 4px;
+
     }
     .testimonial-name:before{
       content: "";
@@ -90,13 +91,20 @@
     }
     .post{
       display: block;
-      font-size: 14px;
+      font-size: 12px;
       font-weight: normal;
       font-family: $body-font;
       letter-spacing: 1px;
 
       color: white;
       margin-top: 0px;
+      @include mq(tabletp) {
+        font-size: 14px;
+      }
+    }
+
+    .post-relation{
+      margin-bottom: 0px;
     }
   }
   #customers-testimonials .item {

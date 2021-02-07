@@ -15,6 +15,9 @@
     .project__title {
       color: $accent-color;
     }
+    .project__role {
+      color: inherit;
+    }
   }
 
   .project__link {
@@ -45,11 +48,22 @@
   .project__title {
     margin-bottom: 0px;
     text-decoration: none !important;
+    margin-top: 10px;
   }
 
   .project__subtitle {
     margin-bottom: 0px;
     text-decoration: none !important;
+    margin-top: 10px;
+  }
+
+  .project__role {
+    margin-bottom: 0px;
+    text-decoration: none !important;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 22px;
+    color: $text-dark-color !important;
   }
 
   /*@include mq("460px") {

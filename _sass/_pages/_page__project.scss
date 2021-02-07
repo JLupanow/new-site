@@ -10,8 +10,16 @@
   scroll-margin-top: 100px;
 
   .post__subtitle {
-    margin-bottom: 48px;
+    margin-bottom: 35px;
     max-width: 100%;
+  }
+
+  .last-subtitle {
+    /*margin-bottom: 43px;*/
+  }
+
+  .project__link {
+    text-decoration: none !important;
   }
 
   /*Make about link jump to 100px above start of section so its not covered by navbar*/
@@ -81,6 +89,10 @@
       }
     }
 
+    a {
+      color: $text-dark-color;
+    }
+
     .gallery--carousel .owl-dot.active::after {
       background: var(--accent);
     }
@@ -88,7 +100,7 @@
 
   @include mq(tabletp) {
     .post__subtitle {
-      margin-bottom: 80px;
+      margin-bottom: 40px;
     }
   }
 }

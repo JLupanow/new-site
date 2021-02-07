@@ -1,7 +1,9 @@
 ---
 title: Website Redesign for a Small Business
-subtitle: User research, information architecture, wireframes, visual design, and usability testing
-date: 2019-07-24 00:00:00
+subtitle: Working with the owner of a local floral shop, I redesigned a responsive website to support a unique commerce experience.
+role: This was a solo university project. I worked on the user research, information architecture, wireframing, visual design, and usability testing.
+timeline: September through December 2019
+date: 2019-12-24 00:00:00
 description: This is a demo post that shows what you can do inside portfolio and blog posts. We’ve included everything you need to create engaging posts and case studies to show off your work in a beautiful way.
 featured_image: petal-pushers-feat.png
 accent_color: '#4C60E6'

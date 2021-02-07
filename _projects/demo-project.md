@@ -1,8 +1,10 @@
 ---
 title: DEMO
 subtitle: Here are the things/skills that were part of this project
+role: 
+timeline: October through December 2020
 date: 2019-07-24 00:00:00
-description: Here is a quick summary of the reason for the project, what I did at a high level, and who the client was.
+description: Here is a quick summary covering who is the company and what do they do, what was the ask/what was I trying to solve, what was the timeline/constraints, whether it was a solo or team effort, what methods I used, and a short description of the end product.
 featured_image: demo.jpg
 accent_color: '#4C60E6'
 gallery_images:
@@ -13,7 +15,11 @@ gallery_images:
 
 ## The Challenge
 
-Why did this project need to happen? What was the goal and why? Who was the user/customer? What was my role? Who else worked on this? Were there any unique or limiting factors like budget, time, time zones, etc.
+Why did this project need to happen? 
+What was the goal and why? 
+What specific problem, user needs, business requirements and/or pain points was I trying to meet? 
+Who was the user/customer? What was my role? Who else worked on this? 
+Were there any unique or limiting factors like budget, time, time zones, etc.
 
 ## The Process
 
@@ -24,10 +30,12 @@ Why did this project need to happen? What was the goal and why? Who was the user
 #### Step 1 {#link1}
 
 The step title should be the reason for doing the step or what was learned. A single headline/sentence. Or put a block quote at the end with the major finding of that step.
+If someone walked in off the street, with no background in UX, your process should make sense to them
 What did you do? For example, what research method did you use?
 Why did you do it?  For example, why did you choose that research method?
 What was the result?  For example, did you achieve your research goals?
 What did you learn? For example, what would you do differently next time?
+In between each part of your process, explain why you went onto the next step of the process — did you run out of time? Did you feel your data was statistically significant?
 
 #### Step 2 {#link2}
 
@@ -35,6 +43,7 @@ What did you do? For example, what research method did you use?
 Why did you do it?  For example, why did you choose that research method?
 What was the result?  For example, did you achieve your research goals?
 What did you learn? For example, what would you do differently next time?
+In between each part of your process, explain why you went onto the next step of the process — did you run out of time? Did you feel your data was statistically significant?
 
 #### Step 3 {#link3}
 
@@ -42,15 +51,32 @@ What did you do? For example, what research method did you use?
 Why did you do it?  For example, why did you choose that research method?
 What was the result?  For example, did you achieve your research goals?
 What did you learn? For example, what would you do differently next time?
+In between each part of your process, explain why you went onto the next step of the process — did you run out of time? Did you feel your data was statistically significant?
 
-## The Outcome
+## The Outcome {#outcome}
 
-What happened in the end? Were the goals achieved? Were there lessons learned?
-
+Project success metrics and awards. 
+What happened in the end? 
+Were the goals achieved? 
+Were there lessons learned? 
+How did the project affect the users and the business? 
+If you don’t have any way of showing the impact of your project, lay out how you would measure the impact. 
+Explain the direction the product is heading or talk about features that are coming up in future iterations if possible
+What insights have you gathered along the way?
+Especially knowing what you do now, what would you change?
+Did you learn a new method or practice?
+Maybe you figured out a better way to conduct user testing, communicate with project managers?
+How did you handle scope creep or miscommunication between teams?
 
 ##### Thank you for reading. If you are interested in my work, reach out. I’d love to learn about your company and see how I can help!
 
 <a href="#" class="cta button--fill contact-trigger js-contact">Get in Touch</a>
+
+
+
+
+
+
 
 
 ## Possible Formatting (REMOVE EVERYTHING BELOW)

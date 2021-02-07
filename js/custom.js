@@ -21,11 +21,13 @@
 
     //  TESTIMONIALS CAROUSEL HOOK
     $('#customers-testimonials').owlCarousel({
-        loop: false,
+        loop: true,
+        rewind: true,
         center: true,
+        nav: true,
         items: 1,
         margin: 0,
-        autoplay: false,
+        autoplay: true,
         dots:true,
         autoplayTimeout: 8500,
 		autoplayHoverPause: true,

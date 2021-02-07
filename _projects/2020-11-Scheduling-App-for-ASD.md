@@ -1,7 +1,9 @@
 ---
-title: Task Planning App for People with ASD
-subtitle: Competitive Analysis, Information Architecture, High fidelity designs
-date: 2019-07-24 00:00:00
+title: Task Analysis App for Users with ASD
+subtitle: Working with the founders of BehaveWare LLC, we designed a task analysis and scheduling app that addresses the needs of users with special needs, including Autism Spectrum Disorder (ASD).
+role: This was work for a client. I contributed the competitive analysis, information architecture, and high fidelity mockups.
+timeline: October through December 2020
+date: 2020-11-24 00:00:00
 description: This is a demo post that shows what you can do inside portfolio and blog posts. We’ve included everything you need to create engaging posts and case studies to show off your work in a beautiful way.
 featured_image: promptly.png
 accent_color: '#4C60E6'
