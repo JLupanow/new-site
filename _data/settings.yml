@@ -10,8 +10,8 @@ menu_settings:
   menu_items:
     - title: 'Portfolio'
       url: '/#portfolio'
-    - title: 'Resume'
-      url: '/Jessica_Lupanow_Resume.pdf/'
+    # - title: 'Resume'
+    #   url: '/Jessica_Lupanow_Resume.pdf/'
     - title: 'About'
       url: '/#about'
 
@@ -169,10 +169,10 @@ font_settings:
     letter_spacing: -0.04
     line_height: 12
   blockquote:
-    small_size: 22
-    medium_size: 30
-    large_size: 38
-    weight: 500
+    small_size: 18
+    medium_size: 26
+    large_size: 30
+    weight: 400
     letter_spacing: -0.02
     line_height: 1.6
   buttons:

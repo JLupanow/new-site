@@ -7,6 +7,38 @@
 .page-post {
   .post__header {
     padding-bottom: 48px;
+
+    a {
+      color: $text-dark-color;
+      font-weight: 400;
+
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+
+  .button--fill {
+    color: white !important;
+  }
+
+  #topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 14px !important;
+    background-color: $border-color !important;
+    color: $accent-color !important;
+    text-decoration: none !important;
+    /*opacity: 0.9;
+    transition: opacity 2s;*/
   }
 
   .post__title {
@@ -43,6 +75,11 @@
       padding-left: 16px;
     }
 
+    ul {
+      list-style-type: disc;
+      list-style-position: outside !important;
+    }
+
     li {
       @extend .body;
     }
@@ -51,6 +88,7 @@
       width: calc(100vw - 60px);
       max-width: 1140px;
       margin: 40px 0;
+      max-height: 50vh;
     }
 
     h2 {
@@ -172,7 +210,7 @@
 
             a.reversefootnote {
               border-bottom: 0;
-              vertical-align: sub;
+              vertical-align: top;
             }
           }
         }

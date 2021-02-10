@@ -22,6 +22,15 @@
     text-decoration: none !important;
   }
 
+  li li{
+      list-style-type: lower-alpha;
+  }
+
+  li li li{
+      list-style-type: lower-roman;
+  }
+
+
   /*Make about link jump to 100px above start of section so its not covered by navbar*/
   a.top-link::before { 
     display: block; 
@@ -91,6 +100,10 @@
 
     a {
       color: $text-dark-color;
+
+      &:hover {
+        color: $accent-color;
+      }
     }
 
     .gallery--carousel .owl-dot.active::after {

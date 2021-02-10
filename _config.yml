@@ -38,6 +38,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: ""
+      type: "resumes"
+    values:
+      layout: "resume-layout"
 
 markdown: kramdown
 highlighter: rouge

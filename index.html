@@ -110,8 +110,22 @@ featured_image: /images/social.jpg
       		<div class="projects__list grid">
 				{% for project in site.projects reversed %}
 					{% if project.title != 'DEMO' %}
-						<!-- {% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %} -->
-
+						<!-- v Temporary until last case study done v -->
+						{% if project.title == 'Website Redesign for a Small Business' %}
+							<article class="project__card">
+							  <a href="https://www.behance.net/gallery/86205477/Mobile-Web-Design-Study-for-a-Small-Business" class="project__link">
+							    <div class=image__frame">
+							    	<div class="project__image"> 
+							    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
+							    		<img src="{{ '/images/projects/' | relative_url}}{{ project.featured_image }}" alt="">
+							    	</div>
+							    </div>
+							    <h4 class="project__title">{{ project.title }}</h4>
+							    <p class="project__role">{{ project.subtitle }}</p>
+							    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
+							  </a>
+							</article>
+						{% else %}
 						<article class="project__card">
 						  <a href="{{ project.url | relative_url }}" class="project__link">
 						    <div class=image__frame">
@@ -125,6 +139,7 @@ featured_image: /images/social.jpg
 						    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
 						  </a>
 						</article>
+						{% endif %}
 					{% endif %}
 				{% endfor %}
 			</div>

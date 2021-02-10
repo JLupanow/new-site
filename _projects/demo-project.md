@@ -27,30 +27,26 @@ Were there any unique or limiting factors like budget, time, time zones, etc.
 2. [Step 2: Present tense Verb+noun](#link2)
 3. [Step 3: Present tense Verb+noun](#link3)
 
-#### Step 1 {#link1}
+### Step 1 {#link1}
 
-The step title should be the reason for doing the step or what was learned. A single headline/sentence. Or put a block quote at the end with the major finding of that step.
 If someone walked in off the street, with no background in UX, your process should make sense to them
 What did you do? For example, what research method did you use?
 Why did you do it?  For example, why did you choose that research method?
 What was the result?  For example, did you achieve your research goals?
-What did you learn? For example, what would you do differently next time?
 In between each part of your process, explain why you went onto the next step of the process — did you run out of time? Did you feel your data was statistically significant?
 
-#### Step 2 {#link2}
+### Step 2 {#link2}
 
 What did you do? For example, what research method did you use?
 Why did you do it?  For example, why did you choose that research method?
 What was the result?  For example, did you achieve your research goals?
-What did you learn? For example, what would you do differently next time?
 In between each part of your process, explain why you went onto the next step of the process — did you run out of time? Did you feel your data was statistically significant?
 
-#### Step 3 {#link3}
+### Step 3 {#link3}
 
 What did you do? For example, what research method did you use?
 Why did you do it?  For example, why did you choose that research method?
 What was the result?  For example, did you achieve your research goals?
-What did you learn? For example, what would you do differently next time?
 In between each part of your process, explain why you went onto the next step of the process — did you run out of time? Did you feel your data was statistically significant?
 
 ## The Outcome {#outcome}
@@ -68,7 +64,13 @@ Did you learn a new method or practice?
 Maybe you figured out a better way to conduct user testing, communicate with project managers?
 How did you handle scope creep or miscommunication between teams?
 
-##### Thank you for reading. If you are interested in my work, reach out. I’d love to learn about your company and see how I can help!
+### Lessons Learned
+
+* The fastest way to learn to prototype in Adobe XD is to ask a bunch of strangers to use your creation and then notice/hear all the ways it could be better. 
+* Take the time to consider what the biggest question/variable/risk is associated with your value proposition. Before the campaign described above, I actually ran two other campaigns where I learned nothing because I didn't have a clear hypothesis.
+* User research can still be conducted in the midst of a pandemic if you're flexible and a bit creative.
+
+**Thank you for reading. If you are interested in my work, reach out. I’d love to learn about your company and see how I can help!**  
 
 <a href="#" class="cta button--fill contact-trigger js-contact">Get in Touch</a>
 

@@ -48,7 +48,9 @@
 
 	@include mq(tabletl) {
 		.wrap {
-			align-items: center
+			align-items: center;
+      margin-top: 40px;
+      top: 80px;
 		}
 	}
 }
