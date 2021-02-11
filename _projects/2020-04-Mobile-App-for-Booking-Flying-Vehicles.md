@@ -15,7 +15,7 @@ gallery_images:
 
 According to Porsche and Boeing, **commercial passenger drones will enter the market around 2025**.[^1] But aside from the eccentric millionaires who may purchase these vehicles for private use, how will the general public be able to access these vehicles? Will there be sufficient interest to support incorporating these vehicles into existing public transit systems? Are people willing to shell out to have a vehicle pick them up at their door and take them to their destination on demand? I needed to **explore different value propositions and business models to find a way these vehicles could be made accessible to the general public**, namely those working or living in the city of Los Angeles. 
 
-[^1]: Brown, Dalvin, "[Possibility or pipe dream: How close are we to seeing flying cars](https://www.usatoday.com/story/tech/2019/11/04/flying-cars-uber-boeing-and-others-say-theyre-almost-ready/4069983002/)," USA Today, 4 Nov 2019.
+[^1]: Brown, Dalvin, "[Possibility or pipe dream: How close are we to seeing flying cars](https://www.usatoday.com/story/tech/2019/11/04/flying-cars-uber-boeing-and-others-say-theyre-almost-ready/4069983002/)," *USA Today*, 4 Nov 2019.
 
 ## The Process
 
@@ -36,7 +36,9 @@ My customer discovery process included 10 individuals. I found that 40% of those
 
 Based on the information I gathered during the interviews, I was also able to **fine-tune my persona**, which would be critical to designing an app that addressed real user needs and behaviors. Meet the efficient millennials. They worry about the safety of these flying vehicles but also know that they're not very far off in the future. The like to relax or work while in transit and need quick and affordable ways to get around, even if it means carpooling occasionally.
 
-![](/images/projects/vola/persona.jpg)
+![](/images/projects/vola/persona-border.png)
+
+<div class="caption"><i>Efficient millennial persona refined through customer discovery</i></div>
 
 Though I would have loved to talk to even more people to confirm my findings, **this was enough data for me to get started shaping a solution that I could get in front of more people**. But first I had to make sure I was developing a unique solution. To do that, I needed to look at the current marketplace.
 
@@ -55,7 +57,9 @@ Using Adobe XD, I crafted a high-fidelity prototype that would walk a customer t
 
 **Needing to test the pricing model, I provided options for paying for a single ride as well as buying week and month passes**. To test the app with potential customers, I also needed to **give it a name and logo**. I chose "Volamos" since it is Spanish for "we fly" and selected a paper airplane as the logo to convey these ease and excitement with which someone could ride in an autonomous flying vehicle.
 
-![](/images/projects/vola/prototype1.jpg)
+![](/images/projects/vola/prototype1.png)
+
+<div class="caption"><i>Initial prototype screens</i></div>
 
 With a working prototype, I felt prepared to evaluate my value proposition and business model with potential customers. As great as I felt the prototype was, **I needed to conduct user research to determine if the product was something real people would want or need**.
 
@@ -74,13 +78,17 @@ I updated the prototype to include the new membership option (inspired by the pe
 
 ![](/images/projects/vola/prototype2.jpg)
 
+<div class="caption"><i>Prototype screen updates based on insights from user interviews</i></div>
+
 To further evaluate the value proposition, I needed to get the app in front of more than just 5 people, so I decided to run an experiment with a much larger sample size. About 500 times larger.
 
 #### Quantitative Research: A/B Testing with Online Advertisements {#research2}
 
 I ran two advertising campaigns on Facebook narrowing in even further on who my potential customers were before I realized that what I really **needed to know was why my potential customers would want to use this app**. Was it really for commuting as I had imagined? Or would it be for the experience of flying? **Understanding this driving force for customers would help me curate the user experience appropriately and influence future marketing decisions**: what route information would be conveyed, how the app could be advertised after development, etc. To answer this question, I created two different advertisements linked to Unbounce landing pages. One ad referred to the app as a chance to book a one-off experience while the other referenced using it as part of a regular commute.
 
-![](/images/projects/vola/ads.jpg)
+![](/images/projects/vola/ads-new.jpg)
+
+<div class="caption"><i>Facebook advertisements used for A/B testing value proposition</i></div>
 
 As a control, I targeted the exact same audience with each ad and ran them with the same budget for the same period of time. I also showed those who clicked on the ad the exact same landing page. This was I could evaluate the most important variable: interest in the ad. Because I was interested in people who would want to download and use the app, **I looked at not only how many people clicked on the ad and the cost per click but also the cost per conversion rate** (what percentage of those people tried to download the app after they got to the landing page).
 
@@ -92,6 +100,8 @@ As a control, I targeted the exact same audience with each ad and ran them with 
 | **Total Views**      |           12          |           44          |
 | **Conversions**      |           3           |           13          |
 | **Conversion Rate**  |           25%         |           30%         |
+
+<div class="caption"><i>Advertising results showing the commuting ad resulting in higher conversion rates and lower cost per click</i></div>
 
 With a lower cost per result, higher number of link clicks, and higher conversion rate, **people were more interested in the app for commuting** rather than for one-off experiences. This is especially interesting because as the technology of flying vehicles becomes more mainstream, it's likely that the tide would shift even further away from the one-off experience. Overall, this experiment validated the value proposition of an app for booking an autonomous flying shuttle as part of a multi-modal route.
 

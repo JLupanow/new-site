@@ -14,7 +14,7 @@ gallery_images:
 
 ## The Challenge
 
-In the field of applied behavior analysis, there are two concepts that are often used: task analysis and visual scheduling. 
+In the field of applied behavior analysis, there are two concepts that are often used: task analysis[^1] and visual scheduling[^2]. 
 Currently on the market, there are apps that do one or the other, but there is no app that does both. 
 Moreover, these **existing apps are outdated and child-like in design**, which can be insulting to older users and feel out of place even for younger users used to popular modern apps. 
 
@@ -24,6 +24,9 @@ They built out the basic functionality of the app, which they named "Promptly," 
 The goal of this project was to make the app appealing enough so that **users of similar apps would be willing to make the switch** when Promptly launched in the App Store and Google Play Store in 2021.
 This meant I needed to address the expectations competing-app users and simultaneously **find ways for Promptly to differentiate itself in the market**. 
 The app had to **work for both neurodiverse children and adults**, and it needed to allow caregivers access to relevant information.
+
+[^1]: Pratt, Cathy, "[Applied Behavior Analysis: The Role of Task Analysis and Chaining](https://www.iidc.indiana.edu/irca/articles/applied-behavior-analysis.html)," *Indiana Resource Center for Autism*, 2020.
+[^2]: ABA Programs Guide Staff, "[What is Visual Scheduling?](https://www.appliedbehavioranalysisprograms.com/faq/what-is-visual-scheduling/)," *Applied Behavior Analysis Programs*, May 2020.
 
 ## The Process
 
@@ -62,6 +65,7 @@ It was a short form way of comparing mental models of the app.
 Refining the use cases got us all onto the same page, and I generated a sitemap to confirm the screens needed before beginning the design work.
 
 ![](/images/projects/promptly/sitemap.png)
+*Sitemap depicting the screens needed to support the use cases*
 
 ### Design High-Fidelity Mockups {#mockups}
 
