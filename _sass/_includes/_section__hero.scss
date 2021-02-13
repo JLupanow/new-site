@@ -410,9 +410,9 @@ ul {
     .floating-image:nth-child(5){
         width:90px;
         height:67.5px;
-        top:504px;
-        left:75px;
-        right:auto
+        top:374px;
+        left:60px;
+        right:auto;
     }
 }
 .floating-image:nth-child(6){
@@ -469,7 +469,7 @@ ul {
 @media screen and (min-width:768px){
     .floating-image:nth-child(7){
         width:190px;
-        height:142.5px;
+        height:122.5px;
         left:45px;
         right:auto;
         top:222px

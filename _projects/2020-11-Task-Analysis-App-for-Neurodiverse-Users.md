@@ -22,8 +22,10 @@ BehaveWare LLC wanted to capitalize on the opportunity to create **an app to enc
 They built out the basic functionality of the app, which they named "Promptly," and then brought me in to consult on the design.
 
 The goal of this project was to make the app appealing enough so that **users of similar apps would be willing to make the switch** when Promptly launched in the App Store and Google Play Store in 2021.
-This meant I needed to address the expectations of users coming from competing apps while simultaneously **finding ways for Promptly to differentiate itself in the market**. 
+This meant I needed to address the expectations of users coming from competing apps while simultaneously finding ways for Promptly to differentiate itself in the market. 
 The app had to **work for both neurodiverse children and adults**, and it needed to allow caregivers access to relevant information.
+
+Because BehaveWare LLC wanted to get this app out as soon as possible, I **needed to get this project done quickly while maintaining quality and staying under budget**.
 
 [^1]: Pratt, Cathy, "[Applied Behavior Analysis: The Role of Task Analysis and Chaining](https://www.iidc.indiana.edu/irca/articles/applied-behavior-analysis.html)," *Indiana Resource Center for Autism*, 2020.
 [^2]: ABA Programs Guide Staff, "[What is Visual Scheduling?](https://www.appliedbehavioranalysisprograms.com/faq/what-is-visual-scheduling/)," *Applied Behavior Analysis Programs*, May 2020.
@@ -90,7 +92,7 @@ I **brainstormed the layouts for each screen and then sketched them out more cle
 
 Then I linked the screens together so I could demonstrate the basic functionality of the app.
 
-![](/images/projects/promptly/prototype.gif)
+![](/images/projects/promptly/prototype-faster.gif)
 
 <div class="caption"><i>Gif demonstrating two use cases: scheduling an existing task in unlocked mode and viewing tasks in locked mode.</i></div>
 
@@ -125,6 +127,6 @@ I would also **work on improvements for the app, starting by conducting user int
 * **Never lower the bar for your design just because the competing designs aren't great.** Neurodiverse users appreciate good looking, user friendly apps just like anyone else.
 * **Don't jump straight to mockups.** Taking the time to check out the competition and really flesh out the use cases ensured that the mockups would be on target. Skipping those steps would have been a disservice to the client and the end users.
 
-**Thank you for reading. If you are interested in my work, reach out. I’d love to learn about your company and see how I can help!**  
+<div class="thank-line">Thank you for reading. If you are interested in my work, reach out. I’d love to learn about your project and see how I can help!</div>
 
 <a href="#" class="cta button--fill contact-trigger js-contact">Get in Touch</a>

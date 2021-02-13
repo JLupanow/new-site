@@ -66,11 +66,11 @@ How did you handle scope creep or miscommunication between teams?
 
 ### Lessons Learned
 
-* The fastest way to learn to prototype in Adobe XD is to ask a bunch of strangers to use your creation and then notice/hear all the ways it could be better. 
-* Take the time to consider what the biggest question/variable/risk is associated with your value proposition. Before the campaign described above, I actually ran two other campaigns where I learned nothing because I didn't have a clear hypothesis.
-* User research can still be conducted in the midst of a pandemic if you're flexible and a bit creative.
+* **Regular design reviews are essential for good collaboration.** The team collaborated to refine the use cases, but then I stepped away to create the mockups solo and didn't share the designs until I was done with all the screens. Sharing early and often would have helped catch things like the missing grouping feature.
+* **Never lower the bar for your design just because the competing designs aren't great.** Neurodiverse users appreciate good looking, user friendly apps just like anyone else.
+* **Don't jump straight to mockups.** Taking the time to check out the competition and really flesh out the use cases ensured that the mockups would be on target. Skipping those steps would have been a disservice to the client and the end users.
 
-**Thank you for reading. If you are interested in my work, reach out. I’d love to learn about your company and see how I can help!**  
+<div class="thank-line">Thank you for reading. If you are interested in my work, reach out. I’d love to learn about your project and see how I can help!</div>
 
 <a href="#" class="cta button--fill contact-trigger js-contact">Get in Touch</a>
 

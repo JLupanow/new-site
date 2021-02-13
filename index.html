@@ -1,7 +1,7 @@
 ---
 layout: default
-title: UX Designer & Strategist
-description: I leverage my design, research, and strategy skills to craft elegant, data-driven digital products for teams tackling health and social challenges.
+title: Designer & Strategist
+description: I leverage my design, research, and strategy skills to craft elegant, data-driven digital products<!--  for teams tackling health and social challenges -->.
 featured_image: /images/social.jpg
 ---
 
@@ -27,67 +27,67 @@ featured_image: /images/social.jpg
 					<a href="#" class="hero__cta button--fill contact-trigger js-contact">Get In Touch</a>
 				</p>
 			</div>
-			<!-- <div class="floating-images">
+			<!-- <div class="hero__image floating-images">
 	            <ul class="floating-images__container">
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/3.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/10.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/8.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/12.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/13.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/4.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/1.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/6.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/5.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/2.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	                <li class="floating-image">
 	                    <div class="image img-container">
-	                        <img src="{{ '/images/hero-images/x01-hero-idea.png.pagespeed.ic.nDlF7PLreB.webp' | relative_url }}" alt="">
+	                        <img src="{{ '/images/hero-images/7.png' | relative_url }}" alt="">
 	                    </div>
 	                </li>
 	            </ul>
 	        </div> -->
 			<div class = "hero__image">
-				<img src="{{ '/images/hero-image.jpg' | relative_url }}" alt="">
+				<img src="{{ '/images/hero-image-1.jpg' | relative_url }}" alt="">
 			</div>
 		</div>
 
@@ -126,19 +126,35 @@ featured_image: /images/social.jpg
 							  </a>
 							</article>
 						{% else %}
-						<article class="project__card">
-						  <a href="{{ project.url | relative_url }}" class="project__link">
-						    <div class=image__frame">
-						    	<div class="project__image"> 
-						    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
-						    		<img src="{{ '/images/projects/' | relative_url}}{{ project.featured_image }}" alt="">
-						    	</div>
-						    </div>
-						    <h4 class="project__title">{{ project.title }}</h4>
-						    <p class="project__role">{{ project.subtitle }}</p>
-						    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
-						  </a>
-						</article>
+							{% if project.title == 'Task Analysis App for Neurodiverse Users' %}
+								<article class="project__card">
+								  
+								    <div class=image__frame">
+								    	<div class="project__image"> 
+								    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
+								    		<img src="{{ '/images/projects/' | relative_url}}promptly-soon.png" alt="">
+								    	</div>
+								    </div>
+								    <h4 class="project__title">{{ project.title }}</h4>
+								    <p class="project__role">{{ project.subtitle }}</p>
+								    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
+								  
+								</article>
+							{% else %}
+								<article class="project__card">
+								  <a href="{{ project.url | relative_url }}" class="project__link">
+								    <div class=image__frame">
+								    	<div class="project__image"> 
+								    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
+								    		<img src="{{ '/images/projects/' | relative_url}}{{ project.featured_image }}" alt="">
+								    	</div>
+								    </div>
+								    <h4 class="project__title">{{ project.title }}</h4>
+								    <p class="project__role">{{ project.subtitle }}</p>
+								    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
+								  </a>
+								</article>
+							{% endif %}
 						{% endif %}
 					{% endif %}
 				{% endfor %}
